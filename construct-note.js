@@ -21,8 +21,6 @@ function charChecker(str) {
     counter[l]= counter[l] || 0;
     counter[l] + 1;
   }
-
-  console.log(counter);
   return counter;
 }
 
